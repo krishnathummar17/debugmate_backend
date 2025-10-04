@@ -1,35 +1,12 @@
-# ---------------- Core Flask Stack ----------------
-Flask==3.0.3
-Flask-Session==0.8.0
-Flask-Cors==4.0.1
-
-# ---------------- Environment & Config ----------------
-python-dotenv==1.0.1
-
-# ---------------- HTTP / API Communication ----------------
-requests==2.32.3
-
-# ---------------- Utility Libraries ----------------
-tabulate==0.9.0
-
-# ---------------- AI / NLP + Embeddings ----------------
-langchain==0.2.16
-langchain-community==0.2.16
-langchain-text-splitters==0.2.3
-langchain-huggingface==0.0.3
-
-# Sentence Transformer model for embeddings
-sentence-transformers==3.0.1
-
-# ---------------- Vector Database ----------------
-chromadb==0.5.5
-
-# ---------------- Supabase (Database) ----------------
-supabase==2.5.1
-
-# ---------------- PDF / Document Loading ----------------
-PyPDF2==3.0.1
-pypdf==5.1.0  # optional dependency for PyPDFLoader
-
-# ---------------- Deployment & Production ----------------
-gunicorn==23.0.0
+Flask
+Flask-Session
+Flask-Cors
+python-dotenv
+requests
+tabulate
+langchain
+langchain-community
+langchain-text-splitters
+chromadb
+tiktoken
+openai
