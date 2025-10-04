@@ -5,4 +5,5 @@ langchain-community
 langchain-text-splitters
 chromadb
 supabase
+gunicorn
 requests 
